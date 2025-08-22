@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">The Art</a> -->
+                <img class="logo ms-5" width="70px" height="70px" src="./images/logo2.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 me-4" aria-current="page" href="#">Artist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 me-4" aria-current="page" href="#">Paintings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 me-4" aria-current="page" href="#">Sculpture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 me-4" aria-current="page" href="#">Exhibitions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 me-4" aria-current="page" href="#">Offers</a>
+                        </li>
+
+                        
+                       
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Search</button>
+                    </form>
+                    <div class="icon ms-3">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- landing section -->
+        <div class="container mt-4">
+            <div class="row align-items-center g-4">
+                <!-- Left content -->
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-semibold mb-4">
+                        The Art <span class="Gallery text-danger fst-italic">Gallery</span>
+                    </h1>
+                   
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-danger btn-lg rounded-pill me-3">
+                            Enquiry
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right image -->
+                <div class="col-md-6 text-center">
+                    <img width="300px" src="./images/coverpic2.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="new text-center fs-1 mt-5 ">
+                <div class="new pb-2 border-bottom border-2 d-inline-block">New Arrivals</div>
+            </div>
+
+            <ul class="nav nav-expand-md justify-content-center flex-grow-1 mt-5">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium text-black px-5" href="#">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium text-black px-5" href="#">Paintings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium text-black px-5" href="#">Sculpture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium text-black px-5" href="#">Traditional Art</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium text-black px-5" href="#">Print</a>
+                </li>
+            </ul>
+
+            <div class="Paintings1 d-flex gap-4 flex-wrap ">
+                <div class="paint">
+                    <img src="./images/arrival1.jpg" alt="" class="paint1">
+                    <h6 class="mt-3">Untitled</h6>
+                    <h6 class="fw-normal mt-3">Yuvraj Patil <br>18 x 18 inches <br>₹25,000.00</h6>
+                </div>
+                <div class="paint">
+                    <img src="./images/arrival2.jpg" alt="" class="paint1">
+                    <h6 class="mt-3">Untitled</h6>
+                    <h6 class="fw-normal mt-3">Jyoti Hattarki <br>18 x 18 inches <br>₹20,000.00</h6>
+                </div>
+                <div class="paint">
+                    <img src="./images/arrival3.jpg" alt="" class="paint1">
+                    <h6 class="mt-3">Untitled</h6>
+                    <h6 class="fw-normal mt-3">Nishant Dange <br>18 x 18 inches <br>₹1,25,000.00</h6>
+                </div>
+                <div class="paint">
+                    <img src="./images/arrival4.jpg" alt="" class="paint1">
+                    <h6 class="mt-3">Untitled</h6>
+                    <h6 class="fw-normal mt-3">Shanta Kumar Hattarki<br>18 x 18 inches <br>₹1,50,000.00</h6>
+                </div>
+            </div>
+
+            <div class="new text-center fs-1 mt-5 ">
+                <div class="new pb-2 border-bottom border-2 d-inline-block">Curator's Pick</div>
+            </div>
+
+            <div class="Paintings2 d-flex gap-4 flex-wrap ">
+                <div class="paint">
+                    <img src="./images/curator1.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Shilpa Patole</h6>
+                    <h6 class="fw-normal mt-3 text-center">Shilpa Patole <br>36 x 36 inches <br>₹1,16,000.00</h6>
+                </div>
+                <div class="paint">
+                    <img src="./images/curator3.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Rahul Dangat</h6>
+                    <h6 class="fw-normal mt-3 text-center">Rahul Dangat <br>18 x 18 inches <br>₹1,08,000.00</h6>
+                </div>
+                <div class="paint">
+                    <img src="./images/curator2.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Pravin Utge</h6>
+                    <h6 class="fw-normal mt-3 text-center">Pravin Utge <br>15 x 18 inches <br>₹1,25,000.00</h6>
+                </div>
+                <div class="paint">
+                    <img src="./images/curator4.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Kappari Kishan</h6>
+                    <h6 class="fw-normal mt-3 text-center">Kappari Kishan<br>18 x 18 inches <br>₹1,50,000.00</h6>
+                </div>
+            </div>
+
+            <div class="new text-center fs-1 mt-5 ">
+                <div class="new pb-2 border-bottom border-2 d-inline-block">Artist In Focus</div>
+            </div>
+            <div class="Paintings3 d-flex gap-4 flex-wrap ">
+                <div class="paint">
+                    <img src="./images/artist1.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Madan Pawar</h6>
+
+                </div>
+                <div class="paint">
+                    <img src="./images/artist2.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">L N V Srinivas</h6>
+
+                </div>
+                <div class="paint">
+                    <img src="./images/artist3.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Jaganath Paul</h6>
+
+                </div>
+                <div class="paint">
+                    <img src="./images/artist4.jpg" alt="" class="paint1 mt-3">
+                    <h6 class="mt-3 text-center">Nishanth Dange</h6>
+
+                </div>
+            </div>
+            <div class="mx-auto mt-2 border-bottom border-2 d-inline-block" style="width:1250px;"></div>
+            <!-- <div class=" pb-2 border-bottom border-2 d-inline-block"></div> -->
+
+            <div class="icon d-flex justify-content-center gap-4 mt-5 flex-wrap">
+                <div class="icon-card text-center">
+                    <i class="fa-solid fa-earth-americas "></i>
+                    <h6 class="mt-3">WORLDWIDE <br><span class="fw-normal mt-2">Shipping</span></h6>
+                </div>
+                <div class="icon-card text-center">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h6 class="mt-3">TRUSTED <br><span class="fw-normal mt-2">Since 2000</span></h6>
+                </div>
+                <div class="icon-card text-center">
+                    <i class="fa-solid fa-headset"></i>
+                    <h6 class="mt-3">SUPPORT 24/7 <br><span class="fw-normal mt-2">Dedicated Support</span></h6>
+                </div>
+                <div class="icon-card text-center">
+                    <i class="fa-solid fa-shield"></i>
+                    <h6 class="mt-3">100% SECURE CHECKOUT<br><span class="fw-normal mt3">Buyer Protection &
+                            Security</span></h6>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="client-says mt-5 " style="background-color: rgb(150, 131, 101);">
+            <div class="client-says mt-5 py-5" style="background-color: rgb(150, 131, 101);">
+                <div class="container">
+                    <h1 class="head fw-normal text-center text-white mb-5">WHAT CLIENT SAY?</h1>
+
+                    <div class="row g-4 justify-content-center">
+                        <!-- Client 1 -->
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <div class="client1 text-center p-4 rounded shadow" style="background-color: white;">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus, doloremque
+                                    mollitia cumque assumenda, atque ipsum quod deleniti velit suscipit quos expedita,
+                                    odit aperiam adipisci accusamus veritatis magnam obcaecati aliquam.</p>
+                                <div class="mb-2">
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                </div>
+                                <h6>- Tony <span class="fw-normal">Happy client</span></h6>
+                            </div>
+                        </div>
+
+                        <!-- Client 2 -->
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <div class="client2 text-center p-4 rounded shadow" style="background-color: white;">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus, doloremque
+                                    mollitia cumque assumenda, atque ipsum quod deleniti velit suscipit quos expedita,
+                                    odit aperiam adipisci accusamus veritatis magnam obcaecati aliquam.</p>
+                                <div class="mb-2">
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                    <i class="fa-solid fa-star" style="color: gold;"></i>
+                                </div>
+                                <h6>- Harry <span class="fw-normal">Happy client</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="about-gallery text-center py-5">
+                <div class="container">
+                    <!-- Heading -->
+                    <h1 class="head fw-normal text-black mb-4">About Art Gallery</h1>
+
+                    <!-- Paragraph -->
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+                                provident harum ea architecto? Repellendus alias velit magni voluptas obcaecati autem
+                                corporis cumque quasi vero. Voluptatibus sed ipsam ratione ex vero. Lorem ipsum dolor
+                                sit amet,consectetur adipisicing elit. Soluta in, eligendi nostrum rerum aliquid minus.
+                                Perspiciatis, enim nobis explicabo debitis fugiat molestiae non itaque harum in
+                                veritatis voluptates corrupti illo? Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.Consectetur dignissimos aliquam nihil quaerat eius, autem quidem at reprehenderit
+                                repellendus amet quis sint esse. Libero rem quos fuga laboriosam incidunt officia.</p>
+                            <button class="mt-5 text-white px-4 py-2 rounded"
+                                style="background-color: rgb(7, 132, 181); ">
+                                <i class="fa-brands fa-instagram me-2"></i>Follow on Instagram</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="about-gallery1 mt-5 py-5" style="background-color: brown;">
+                    <div class="container">
+                        <div class="row text-white text-center text-md-start gy-5">
+
+                            <!-- Section 1: Newsletter -->
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h5 class="fw-bold">JOIN OUR NEWSLETTER</h5>
+                                <p class="mt-5">Sign up to receive awesome content</p>
+                                <input type="email" class="form-control bg-transparent text-white border-white mt-4 w-55"
+                                    placeholder="Your email address">
+                                <button class="btn mt-3 text-white border border-white w-90"
+                                    style="background-color: brown;">
+                                    Let's keep in touch
+                                </button>
+                            </div>
+
+                            <!-- Section 2: Categories -->
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h5 class="fw-bold">CATEGORIES</h5>
+                                <ul class="list-unstyled mt-5">
+                                    <li>Artists</li>
+                                    <li class="mt-2">Paintings</li>
+                                    <li class="mt-2">Sculpture</li>
+                                    <li class="mt-2">Print</li>
+                                    <li class="mt-2">Traditional Arts</li>
+                                </ul>
+                            </div>
+
+                            <!-- Section 3: Useful Links -->
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h5 class="fw-bold">USEFUL LINKS</h5>
+                                <ul class="list-unstyled mt-5">
+                                    <li class="mt-2">Contact Us</li>
+                                    <li class="mt-2">Privacy Policy</li>
+                                    <li class="mt-2">Shipping Policy</li>
+                                    <li class="mt-2">Return Policy</li>
+                                    <li class="mt-2">Terms & Conditions</li>
+                                </ul>
+                            </div>
+
+                            <!-- Section 4: Contact Info -->
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h5 class="fw-bold">CONTACT INFO</h5>
+                                <ul class="list-unstyled mt-3">
+                                    <li><i class="fa-solid fa-phone me-2 mt-5"></i>8078085653</li>
+                                    <li class="mt-2"><i class="fa-solid fa-envelope me-2"></i>artsgallery@gmail.com</li>
+                                    <li class="mt-2"><i class="fa-solid fa-location-dot me-2"></i>Arts gallery Address</li>
+                                </ul>
+                                <ul class="list-unstyled list-inlin">
+                                    <li><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram ms-3"></i><i class="fa-brands fa-x-twitter ms-3"></i><i class="fa-brands fa-whatsapp ms-3"></i></li>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+ 
+
+            </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</html>
